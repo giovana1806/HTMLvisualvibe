@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap&#39');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+body{
+    background: linear-gradient(90deg, #131E26 60%, #223947, #325A6F);
+}
+
+nav{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo img{
+    width: 150px;
+    height: 50px;
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    list-style: none;
+}
+
+li{
+    margin: 10px;
+}
+
+.btn{
+    background: linear-gradient(90deg, #349054, #57c3f0);
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.btn img{
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+}
+
+.pai{
+    display: flex;
+    width: 100%;
+    padding: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text{
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text h1{
+    font-size: 4rem;
+    font-weight: lighter;
+}
+
+.link{
+    display: flex;
+    align-items: center;
+}
+
+.seta{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.image{
+    width: 40%;
+    height: 500px;
+}
+
+.blog{
+    width: 100%;
+    background-color: rgb(226, 226, 226);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+.blog h1{
+    color: black;
+    font-size: 2.3rem;
+}
+
+.cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    width: 350px;
+    padding: 10px;
+    justify-content: center;
+    background-color: white;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.texto2{
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card img{
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.card h2{
+    color: black;
+}
+
+.card p{
+    color: black;
+}
+
+.btnCard{
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #131E26;
+    width: 90%;
+    text-align: center;
+}
