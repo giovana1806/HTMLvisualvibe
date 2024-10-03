@@ -115,6 +115,7 @@ li{
     background-color: white;
     margin: 10px;
     border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px #131e2699;
 }
 
 .texto2{
